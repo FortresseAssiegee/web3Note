@@ -112,7 +112,7 @@ const parts = await Promise.all(partNames.map(async (name) => ({
 parts.sort((a, b) => Number(a.files[0]?.slice(0, 2)) - Number(b.files[0]?.slice(0, 2)));
 const chainNav = [
   ["概览", blockchain + "/index.md"],
-  ...parts.map(({ name, files }) => [name, files.map((file) => [title(file), blockchain + "/" + name + "/" + file])]),
+  ...parts.flatMap(({ name, files }) => files.map((file) => [title(file), blockchain + "/" + name + "/" + file])),
   ["代码示例", blockchain + "/附加资料/代码示例/index.md"],
 ];
 const nav = [
