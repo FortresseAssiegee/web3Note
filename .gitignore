@@ -7,4 +7,7 @@ Thumbs.db
 !.env.example
 *.tmp
 *.log
+.site-docs/
+.site-output/
+.site-mkdocs.yml
 

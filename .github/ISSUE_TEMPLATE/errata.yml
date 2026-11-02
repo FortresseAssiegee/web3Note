@@ -1,0 +1,44 @@
+name: 笔记勘误
+description: 报告事实、版本、代码或链接问题
+title: "[勘误] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 笔记路径
+      description: 请填写仓库内的文件路径或页面链接
+      placeholder: 区块链学习笔记_38篇/…/某篇笔记.md
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 问题类型
+      options:
+        - 事实或机制
+        - 版本过时
+        - 代码示例
+        - 链接失效
+        - 表达或排版
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 具体问题
+      description: 请指出章节、原句或代码位置，并说明问题
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 核查来源或复现步骤
+      description: 如涉及事实、版本或代码，请提供官方文档、论文定位或最小复现步骤
+    validations:
+      required: false
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议修改
+    validations:
+      required: false

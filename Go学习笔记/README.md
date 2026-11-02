@@ -4,23 +4,23 @@
 
 ## 目录
 
-- `01_开发环境与工程基础.md` — 开发环境、工具链与 Go Modules
-- `02_Go语言基础语法体系.md` — 变量、常量、数据类型、运算符与流程控制
-- `03_Go函数、指针和defer关键字.md` — 函数、方法、指针、错误处理与 defer
-- `04_Go语言数组和切片.md` — 数组、切片及其底层机制
-- `05_Go语言结构体和结构体深入.md` — 结构体、方法、组合与内存布局
-- `06_Go的Map和Map底层实现.md` — Map 操作、并发安全与运行时实现
-- `07_Go的interface基本概念、多态与底层实现.md` — 接口、多态、类型断言与反射
-- `08_Go语言Channel及其底层原理.md` — Channel、select 与通信机制
-- `09_Go的并发编程和GMP调度模块.md` — Goroutine、同步工具与 GMP 调度
-- `10_Context最佳开发实践.md` — 取消、超时与上下文传递
-- `11_Go语言常见并发问题与解决策略.md` — 数据竞争、死锁、泄漏与并发控制
-- `12_Go语言网络编程.md` — TCP、UDP、HTTP、Socket 与 gRPC
-- `13_数据库基础知识与Go数据库操作_GORM与PostgreSQL.md` — GORM 与 PostgreSQL
-- `14_Go语言主流Web框架实战.md` — Beego、Gin、Echo 与 GoFrame
-- `15_分布式系统与基础设施.md` — 服务通信、发现、治理与可观测性
-- `16_Go综合项目实战_从0开始开发一个Go项目.md` — 行情服务综合项目
-- `17_Go性能优化、GC与底层运行机制.md` — pprof、trace、Benchmark 与 GC
+- [01 开发环境与工程基础](01_开发环境与工程基础.md) — 开发环境、工具链与 Go Modules
+- [02 Go语言基础语法体系](02_Go语言基础语法体系.md) — 变量、常量、数据类型、运算符与流程控制
+- [03 Go函数、指针和defer关键字](03_Go函数、指针和defer关键字.md) — 函数、方法、指针、错误处理与 defer
+- [04 Go语言数组和切片](04_Go语言数组和切片.md) — 数组、切片及其底层机制
+- [05 Go语言结构体和结构体深入](05_Go语言结构体和结构体深入.md) — 结构体、方法、组合与内存布局
+- [06 Go的Map和Map底层实现](06_Go的Map和Map底层实现.md) — Map 操作、并发安全与运行时实现
+- [07 Go的interface基本概念、多态与底层实现](07_Go的interface基本概念、多态与底层实现.md) — 接口、多态、类型断言与反射
+- [08 Go语言Channel及其底层原理](08_Go语言Channel及其底层原理.md) — Channel、select 与通信机制
+- [09 Go的并发编程和GMP调度模块](09_Go的并发编程和GMP调度模块.md) — Goroutine、同步工具与 GMP 调度
+- [10 Context最佳开发实践](10_Context最佳开发实践.md) — 取消、超时与上下文传递
+- [11 Go语言常见并发问题与解决策略](11_Go语言常见并发问题与解决策略.md) — 数据竞争、死锁、泄漏与并发控制
+- [12 Go语言网络编程](12_Go语言网络编程.md) — TCP、UDP、HTTP、Socket 与 gRPC
+- [13 数据库基础知识与Go数据库操作 GORM与PostgreSQL](13_数据库基础知识与Go数据库操作_GORM与PostgreSQL.md) — GORM 与 PostgreSQL
+- [14 Go语言主流Web框架实战](14_Go语言主流Web框架实战.md) — Beego、Gin、Echo 与 GoFrame
+- [15 分布式系统与基础设施](15_分布式系统与基础设施.md) — 服务通信、发现、治理与可观测性
+- [16 Go综合项目实战 从0开始开发一个Go项目](16_Go综合项目实战_从0开始开发一个Go项目.md) — 行情服务综合项目
+- [17 Go性能优化、GC与底层运行机制](17_Go性能优化、GC与底层运行机制.md) — pprof、trace、Benchmark 与 GC
 
 完整阅读顺序见 [00_学习总目录与命名对照.md](00_学习总目录与命名对照.md)。版本与内容边界见 [00_版本与内容说明.md](00_版本与内容说明.md)。
 
