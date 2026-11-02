@@ -5,8 +5,8 @@ const root = process.cwd();
 const docs = path.join(root, ".site-docs");
 const generatedConfig = path.join(root, ".site-mkdocs.yml");
 const topics = [
-  "Go学习笔记",
   "区块链学习笔记_38篇",
+  "Go学习笔记",
   "智能合约学习笔记",
   "钱包学习笔记",
 ];
@@ -117,8 +117,8 @@ const chainNav = [
 ];
 const nav = [
   ["首页", "index.md"],
-  ["Go 学习笔记", goNav],
   ["区块链与 Web3", chainNav],
+  ["Go 学习笔记", goNav],
   ["智能合约（待整理）", "智能合约学习笔记/index.md"],
   ["钱包（待整理）", "钱包学习笔记/index.md"],
   ["贡献与维护", "CONTRIBUTING.md"],
