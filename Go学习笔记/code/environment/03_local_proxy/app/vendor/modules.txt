@@ -1,0 +1,9 @@
+# example.com/learning/left v1.0.0
+## explicit; go 1.24.0
+example.com/learning/left
+# example.com/learning/number v1.3.0
+## explicit; go 1.24.0
+example.com/learning/number
+# example.com/learning/right v1.0.0
+## explicit; go 1.24.0
+example.com/learning/right

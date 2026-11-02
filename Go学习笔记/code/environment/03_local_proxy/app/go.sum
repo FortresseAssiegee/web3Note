@@ -1,0 +1,6 @@
+example.com/learning/left v1.0.0 h1:ZPLwJtDsi6OCre4g4PGrmY37wOhyb6mM8ime+Iuymu4=
+example.com/learning/left v1.0.0/go.mod h1:yjqxMVeq2Pncq0EGDypQ3aZV2ZmxsyrPISufqQXCUns=
+example.com/learning/number v1.3.0 h1:Nx9o6b0/W80Mjc9MCJFqpfuWmLocY1H17PY8up4hZlY=
+example.com/learning/number v1.3.0/go.mod h1:jU/FbhHTwTaAgBxQW8zwYfKZ+wKxurqNqNStQNfL9N0=
+example.com/learning/right v1.0.0 h1:eo0Q1bLtpxrdaHZ5AeWZybfgdQ20uhPDy7Q4Gxzj64g=
+example.com/learning/right v1.0.0/go.mod h1:/+gy0gCZY0Vtf8R+oLR4KHM9VppbE3G3BhK04+6BM8o=

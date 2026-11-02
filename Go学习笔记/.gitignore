@@ -1,0 +1,33 @@
+# Go build outputs
+/bin/
+/dist/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go performance and diagnostic artifacts
+*.pprof
+*.prof
+*.trace
+*.heap
+*.cpu
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
